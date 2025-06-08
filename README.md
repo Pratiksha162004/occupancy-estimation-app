@@ -1,19 +1,17 @@
-# 🏢 Occupancy Estimation App
+# Logistic Regression Based Occupancy Prediction
 
-A Streamlit web application to estimate room occupancy based on sensor inputs like temperature, CO2, light, sound, and PIR sensors.
+Predicts if the room is occupied using sensor data with logistic regression.
 
-## 🔍 Features
+## How to Run
 
-- 📊 EDA: Visualize occupancy count, temperature distribution, and CO2 trends
-- 🔮 Prediction: Input sensor values and predict room occupancy using trained ML model
+1. Train model:
+```bash
+python train_model.py
+```
 
-## 📂 Files Included
-
-- `app.py`: Streamlit App
-- `model.pkl`: Trained Machine Learning Model
-- `Occupancy_Estimation.csv`: Dataset for EDA
-
-## ▶️ How to Run
-
+2. Run app:
 ```bash
 streamlit run app.py
+```
+
+Developed by: Pratiksha
